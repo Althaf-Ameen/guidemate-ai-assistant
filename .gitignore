@@ -1,0 +1,36 @@
+# Virtual environments
+venv/
+pp/
+myenv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Model files
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.dat
+*.npy
+
+# Data folders
+data/
+dataset/
+
+# Audio files
+*.wav
+*.mp3
+
+# Text data files
+context.txt
+jokes.txt
+
+# System files
+.DS_Store
+.env
+*.log

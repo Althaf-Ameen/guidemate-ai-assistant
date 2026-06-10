@@ -1,0 +1,13 @@
+pygame
+pyttsx3
+SpeechRecognition
+transformers
+geopy
+timezonefinder
+pytz
+torch
+ultralytics
+opencv-python
+dlib
+face_recognition
+numpy
