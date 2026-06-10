@@ -11,6 +11,8 @@ Technology, under APJ Abdul Kalam Technological University, Kerala.
 
 ## Project Structure
 
+```
+
 GuideMate/
 │
 ├── Currency-Detection/
@@ -31,7 +33,7 @@ GuideMate/
 ├── README.md
 ├── requirements.txt
 └── LICENSE
-
+```
 ---
 
 ## How It Works
@@ -60,36 +62,42 @@ GuideMate/
 1. Clone this repository
 
 2. Install dependencies:
+```
 pip install -r requirements.txt
+```
 
 3. For Face Recognition setup, run in order:
+```
 python Face_Data_Collection.py
 python Face_Encoder.py
+```
 
-4. Download the following dlib model files and place them in
-   the Face-Recognition folder:
-   - shape_predictor_68_face_landmarks.dat
-   - dlib_face_recognition_resnet_model_v1.dat
+4. Download the following dlib model files and place them in the Face-Recognition folder:
+- shape_predictor_68_face_landmarks.dat
+- dlib_face_recognition_resnet_model_v1.dat
 
 5. For Currency Detection setup, run in order:
+```
 python Image_Annotator.py
 python Label_Generator.py
 python Label_Verifier.py
+```
 
-6. Train your YOLOv8 model and place the trained
-   model file in the Currency-Detection folder
+6. Train your YOLOv8 model and place the trained model file in the Currency-Detection folder
 
 7. Update the following in Voice_Assistant.py:
-   - your_venv_path — path to your virtual environment
-   - your_script_path — path to your scripts
+- your_venv_path — path to your virtual environment
+- your_script_path — path to your scripts
 
 8. Add your own files:
-   - jokes.txt — one joke per line
-   - context.txt — text for AI question answering
-   - Audio file — your preferred audio file for music
+- jokes.txt — one joke per line
+- context.txt — text for AI question answering
+- Audio file — your preferred audio file for music
 
 9. Run the assistant:
+```
 python Voice_Assistant.py
+```
 
 ---
 
