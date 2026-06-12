@@ -1,3 +1,4 @@
+![GuideMate Banner](GuideMate.png)
 # GuideMate - Helping Hand for Visually Impaired Individuals
 
 An AI-powered voice assistant designed to assist visually impaired individuals
